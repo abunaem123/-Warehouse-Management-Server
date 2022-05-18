@@ -1,0 +1,83 @@
+[
+    {
+      "id": "1",
+      "img": "https://i.ibb.co/Sxv7tDM/2-Li-Wii-Wsh1g-To94w-F424-PAVLN2-NTlx-YSp-Qaz-Xk-LA.jpg",
+      "about": "Engine Type: Single Cylinder, Air Cooled, 4 Strokes. Engine Starting System: Electric & Kick Start. Engine Max Torque: 8.8 Nm@ 7000rpm, 7.5Kw. Displacement: 125cc",
+      "Price": 110000,
+      "Quantity": 22,
+      "name": "FABIO-125",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "2",
+      "img": "https://i.ibb.co/yX13vjg/a-Skz-J5b8o-G660acjrs-LDjbq-Jc6vz-Xi2b0-Wq-S16b-F.jpg",
+      "about": "Engine Type: Single Cylinder, Air Cooled, 4 Strokes. Engine Starting System: Electric. Engine Max Torque: 12.2 Nm @ 5500rpm, 8.9Kw. Displacement: 150cc",
+      "Price": 133000,
+      "Quantity": 26,
+      "name": "EVO-150R",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "3",
+      "img": "https://i.ibb.co/ZgNBdcj/2-Fq5-Vb2-FBsie-Ex-Wy-BGZUb-AUAsh-X7-TGQcxh-Rf-Ro38.jpg",
+      "about": "Displacement: 150cc. Mileage: 40 kmpl. Maximum Power: 16.8 BHP @ 8000 RPM. Maximum Torque: 14 Nm @ 6500 RPM",
+      "Price": 178750,
+      "Quantity": 27,
+      "name": "Lifan KPT 150 ABS",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "4",
+      "img": "https://i.ibb.co/X7fKy7d/QHZKJl-Wqt-IDWN06v7-Hmmuv1-Kyok-TXt-CWz0rf-Yrfb.jpg",
+      "about": "Displacement: 149.2cc. Mileage: 35 kmpl. Maximum Power: 18 HP@ 9750 RPM. Maximum Torque: 14 Nm @ 7500 RPM",
+      "Price": 365000,
+      "Quantity": 38,
+      "name": "APPRILA GPR 150",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "5",
+      "img": "https://i.ibb.co/3pQ3KQK/h0-BAHr-Z6-E0-F5-Vda-X3-Uxod-Zw-E1-Hzb7idk-MR7o-Kpqv.jpg",
+      "about": "KTM RC 125 (Indian): Review, Specifications, Price 2020.might have heard about the pocket rocket, the KTM Duke 125 (European), the bike that is notoriously famous in India for bringing havoc on the road.",
+      "Price": 305000,
+      "Quantity": 26,
+      "name": "KTM RC 125 Indian ABS",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "6",
+      "img": "https://i.ibb.co/z7JxGst/M6w83b-Fr-GPl9-XEB6u9-IZMwpe-XM8g1s-EM42dno-Rn-X.jpg",
+      "about": "After the very successful run of the Yamaha FZS or FZ16 it was time for Yamaha to give a through upgrade over the old FZ. The FZ was a marvelous bike in terms of the handling performance but not much fuel efficient though.",
+      "Price": 250000,
+      "Quantity": 26,
+      "name": "Yamaha FZs V2",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "7",
+      "img": "https://i.ibb.co/zSJrwpR/Mhcwo-Q84was-QOU9-T6-SNd-Ug-RCO5yk-Hc-SPl-Jpgwgo-U.jpg",
+      "about": "ENGINE TYPE: Single Cylinder, 4-Stroke, OHC, SI Engine. DISPLACEMENT: 159.7cc. MAXIMUM POWER: 16.5 PS @ 8000 rpm. MAXIMUM TORQUE: 14.8 Nm @ 6500 rpm",
+      "Price": 185000,
+      "Quantity": 26,
+      "name": "TVS Apache RTR 160 4V SD",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "8",
+      "img": "https://i.ibb.co/fDVPFcG/i-Ia6-In1-SI4baeo-IVCGa-HGore-CSi-UKQV7-Tm088-B6h.jpg",
+      "about": "Type: single cylinder air-cooled oversquare engine. CC: 160. Power: 15 bhp @ 8,500 rpm. Torque: 13 Nm @ 6,000 rpm",
+      "Price": 170000,
+      "Quantity": 26,
+      "name": "TVS Apache RTR 160 2V",
+      "SuplierName": "Abu Naem"
+    },
+    {
+      "id": "9",
+      "img": "https://i.ibb.co/qyF18tt/6o52-Ho-IFre-V59-CMo-O9-VW90-ZA5gh-Cvu3g-LX0t771q.jpg",
+      "about": "Displacement:149 cc. Engine Type:Four stroke, Single Cylinder. Max Power: 7.7KW @8500rpm. Max Torque: 9.2 Nm @ 6500 RPM",
+      "Price": 85000,
+      "Quantity": 26,
+      "name": "MAX-Z-150",
+      "SuplierName": "Abu Naem"
+    }
+  ]

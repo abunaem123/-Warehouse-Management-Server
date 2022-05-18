@@ -1,0 +1,12 @@
+.products-title{
+    text-align: center;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+}
+.products-container img{
+    width: 100%;
+}
