@@ -60,7 +60,7 @@ const Login = () => {
 
 
     return (
-        <div className=' w-50 mx-auto my-4'>
+        <div className=' w-50 mx-auto my-4 bg-light shadow p-3 mb-5  p-4 border rounded text-black'>
             <h2 className='text-center'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">

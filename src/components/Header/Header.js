@@ -14,24 +14,31 @@ const Header = () => {
         <div >
             <Navbar bg="dark" variant="dark" className='pe-4'>
                 <Container>
-                    <Navbar.Brand href="/">Bike Inventory</Navbar.Brand>
+                    <Navbar.Brand href="/"><span className='text-primary fw-bold'>Bike</span> Warehouse</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/products">Products</Nav.Link>
                         <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
+                        {
+                            user && <>
+                                <Nav.Link  as={Link} to="manageinventory">Manage Items</Nav.Link>
+                                <Nav.Link  as={Link} to="addmyitem">Add My Item</Nav.Link>
+
+                                <Nav.Link  as={Link} to="myitem">My Item</Nav.Link>
+                            </>
+                        }
                     </Nav>
                 </Container>
                 <Nav>
-                            {
-                                user?
-                                    <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign Out</button>
-                                :
-                                
-                                <Nav.Link as={Link} to="login">
+                    {
+                        user ?
+                            <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign Out</button>
+                            :
+
+                            <Nav.Link as={Link} to="login">
                                 Login
                             </Nav.Link>}
-                        </Nav>
+                </Nav>
             </Navbar>
 
         </div>

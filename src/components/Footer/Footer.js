@@ -2,22 +2,32 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <div>
-                <i className="fab fa-facebook-f"></i>
-                <i className="fab fa-twitter"></i>
-                <i className="fab fa-google"></i>
-                <i className="fab fa-instagram"></i>
-                <i className="fab fa-linkedin-in"></i>
-                <i className="fab fa-pinterest"></i>
-                <i className="fab fa-vk"></i>
-                <i className="fab fa-stack-overflow"></i>
-                <i className="fab fa-youtube"></i>
-                <i className="fab fa-slack-hash"></i>
-                <i className="fab fa-github"></i>
-                <i className="fab fa-dribbble"></i>
-                <i className="fab fa-reddit-alien"></i>
-                <i className="fab fa-whatsapp"></i>
+        <div className='bg-dark m-0 py-4'>
+            <div className='text-start container'>
+                <div className='d-flex'>
+                    <div>
+                        
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                        <h2 className='text-white'><span className='text-primary'>Bike</span> Warehouse</h2>
+                        <p className='text-white'>For some people, a motorcycle is just a two-wheeler used for transportation, while on the other hand, for others, it is more like an emotion.</p>
+                        </div>
+                        <div className="col ps-4 text-end ">
+                            <h5 className='text-white'>Quick Link</h5>
+                            <a className='text-white text-decoration-none' href="/home">Home</a><br />
+                            <a className='text-white text-decoration-none' href="/about">About</a><br />
+                            <a className='text-white text-decoration-none' href="/blogs">Blogs</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className='text-white m-0 border-top text-center pt-2'>
+                        <p className='m-0'>© 2022 Laptop Warehouse. All rights reserved</p>
+                        <p className='text-white m-0'>Web Build By <b><a className='text-primary text-decoration-none' href="https://abunaem.com/">Abu Naem</a></b></p>
+                    </div>
+
+                </div>
             </div>
         </div>
     );
