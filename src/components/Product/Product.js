@@ -9,8 +9,8 @@ const Product = ({ product }) => {
     }
     return (
 
-        <div>
-            <div className="card">
+        <div className='card-group'>
+            <div className="card ">
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body text-start">
                     <h4 className="card-title">{name}</h4>

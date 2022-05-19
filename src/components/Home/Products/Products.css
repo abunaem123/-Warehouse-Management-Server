@@ -10,3 +10,8 @@
 .products-container img{
     width: 100%;
 }
+@media only screen and (max-width:576px) {
+    .products-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

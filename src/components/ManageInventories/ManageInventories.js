@@ -5,26 +5,26 @@ import UseInventory from '../../hooks/UseInventory/UseInventory';
 const ManageInventories = () => {
     const [inventories, setInventories] = UseInventory();
     const navigate = useNavigate();
-    //     const navigate = useNavigate();
-    //     const handleDelete = id => {
-    //         console.log(id)
-    // ;
-    //         const proceed = window.confirm('Are you Sure?');
-    //         if (proceed) {
-    //             const url = `http://localhost:5000/inventory/${id}`;
-    //             fetch(url, {
-    //                 method: 'DELETE'
-    //             })
+        
+        const handleDelete = id => {
+            console.log(id)
+    ;
+            const proceed = window.confirm('Are you Sure?');
+            if (proceed) {
+                const url = `http://localhost:5000/inventory/${id}`;
+                fetch(url, {
+                    method: 'DELETE'
+                })
 
-    //                 .then(response => response.json())
-    //                 .then(data => {
-    //                     console.log(data);
-    //                     const remaining = inventories.filter(inventory => inventory._id !== id)
-    //                     setInventories(remaining)
-    //                 })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                        const remaining = inventories.filter(inventory => inventory._id !== id)
+                        setInventories(remaining)
+                    })
 
-    //         }
-    // }
+            }
+    }
     return (
         <div className='container text-start my-4'>
             {
@@ -44,7 +44,7 @@ const ManageInventories = () => {
                                     <p><b>Quantity: </b>{inventory.Quantity}</p>
                                     <p><b>SuplierName: </b>{inventory.SuplierName}</p>
                                    <div className='d-grid mt-2 w-50'>
-                                       <button className='btn btn-primary p-2  my-2'>Delete Item</button>
+                                       <button onClick={() => handleDelete(inventory._id)} className='btn btn-primary p-2  my-2'>Delete Item</button>
                                        <button onClick={() => navigate('/addmyitem')}  className='btn btn-dark p-2 my-2'>Add Item</button>
                                        {/* <div><button  className='btn btn-dark '>Add Item</button></div> */}
                                    </div>
