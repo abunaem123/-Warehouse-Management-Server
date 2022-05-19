@@ -1,17 +1,15 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
         <div className='bg-dark m-0 py-4'>
             <div className='text-start container'>
-                <div className='d-flex'>
-                    <div>
-                        
-                    </div>
+                <div className='flex-container'>
                     <div className="row">
                         <div className="col">
-                        <h2 className='text-white'><span className='text-primary'>Bike</span> Warehouse</h2>
-                        <p className='text-white'>For some people, a motorcycle is just a two-wheeler used for transportation, while on the other hand, for others, it is more like an emotion.</p>
+                            <h2 className='text-white'><span className='text-primary'>Bike</span> Warehouse</h2>
+                            <p className='text-white'>For some people, a motorcycle is just a two-wheeler used for transportation, while on the other hand, for others, it is more like an emotion.</p>
                         </div>
                         <div className="col ps-4 text-end ">
                             <h5 className='text-white'>Quick Link</h5>
