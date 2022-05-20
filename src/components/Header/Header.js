@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
-import  logo from '../../Images/Logo.jpg'
+import  logo from '../../Images/Naeem Web Logo.png'
 
 const Header = () => {
     const [user] = useAuthState(auth)
