@@ -1,0 +1,7 @@
+.add-item{
+    width: 50%;
+}@media only screen and (max-width:576px) {
+    .add-item {
+        width: 100%;
+    }
+}

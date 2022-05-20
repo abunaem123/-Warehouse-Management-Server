@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 import Social from '../Social/Social';
+import './Login.css'
 
 const Login = () => {
     const emailRef = useRef ('');
@@ -60,7 +61,7 @@ const Login = () => {
 
 
     return (
-        <div className=' w-50 mx-auto my-4 bg-light shadow p-3 mb-5  p-4 border rounded text-black'>
+        <div className=' login-form mx-auto my-4 bg-light shadow p-3 mb-5  p-4 border rounded text-black'>
             <h2 className='text-center'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import './AddMyItem.css'
 
 const AddMyItem = () => {
     const { register, handleSubmit } = useForm();
@@ -21,7 +22,7 @@ const AddMyItem = () => {
     }
 
     return (
-        <div className='w-50 mx-auto mt-5 mb-5'>
+        <div className='add-item mx-auto mt-5 mb-5'>
             <h1 className='text-danger'> Please add Your Item</h1>
             <form className='d-flex flex-column mx-3 shadow p-3 my-5 text-start bg-light' onSubmit={handleSubmit(onSubmit)} >
                 <label className="text-left ">

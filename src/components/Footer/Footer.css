@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: row;
   }
+  .footer-link{
+    text-align: end;
+  }
   @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
+    .footer-link {
+      text-align: start;
     }
   }
