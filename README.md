@@ -1,6 +1,9 @@
 # Bike Inventory 
 
-Bike Warehouse [Create React App](https://github.com/facebook/create-react-app).
+Bike Warehouse Live Site[Live Site ](https://github.com/facebook/create-react-app).
+Client Site[Client Site Code ](https://github.com/facebook/create-react-app).
+Server Site[Server Site Code ](https://github.com/facebook/create-react-app).
+Stack Overflow Question[StackOverflow ](https://stackoverflow.com/questions/72319918/bad-auth-authentication-failed).
 
 ## This website made with.
 * React
