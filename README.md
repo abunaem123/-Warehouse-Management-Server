@@ -1,9 +1,9 @@
 # Bike Inventory 
 
-Bike Warehouse Live Site[Live Site ](https://github.com/facebook/create-react-app).
-Client Site[Client Site Code ](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-abunaem123).
-Server Site[Server Site Code ](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-abunaem123).
-Stack Overflow Question[StackOverflow ](https://stackoverflow.com/questions/72319918/bad-auth-authentication-failed).
+* Bike Warehouse Live Site[Live Site ](https://github.com/facebook/create-react-app).
+* Client Site[Client Site Code ](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-abunaem123).
+* Server Site[Server Site Code ](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-abunaem123).
+* Stack Overflow Question[StackOverflow ](https://stackoverflow.com/questions/72319918/bad-auth-authentication-failed).
 
 ## This website made with.
 * React
