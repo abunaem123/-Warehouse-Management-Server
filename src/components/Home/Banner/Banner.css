@@ -1,6 +1,7 @@
 .slider img {
     height: 220px;
 }
+/* Mobile Responsive  */
 @media only screen and (max-width:576px) {
     .slider img{
         height: 200px;
