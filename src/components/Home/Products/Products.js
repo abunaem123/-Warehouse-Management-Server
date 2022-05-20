@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Product from '../../Product/Product';
 import './Products.css'
 
 const Products = () => {
     const [products,setProducts] =useState([]);
+    const navigate = useNavigate();
 
     useEffect ( ()=>{
         fetch('http://localhost:5000/inventories')
@@ -24,7 +26,7 @@ const Products = () => {
                 </Product>)
             }
             </div>
-            <button className='btn-primary my-4'>Manage Inventories</button>
+            <button onClick={() => navigate('/manageinventory')} className='btn-primary my-4'>Manage Inventories</button>
         </div>
     );
 };

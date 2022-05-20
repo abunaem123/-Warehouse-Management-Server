@@ -13,7 +13,7 @@ const Header = () => {
     }
     return (
         <div >
-            <Navbar bg="dark" variant="dark" className='pe-4'>
+            {/* <Navbar bg="dark" variant="dark" className='pe-4'>
                 <Container>
                     <Navbar.Brand href="/"><span className='text-primary fw-bold'>Bike</span> Warehouse</Navbar.Brand>
                     <Nav className="me-auto">
@@ -40,7 +40,7 @@ const Header = () => {
                                 Login
                             </Nav.Link>}
                 </Nav>
-            </Navbar>
+            </Navbar> */}
 
             <Navbar collapseOnSelect sticky='top' expand="lg" bg="black" variant="dark">
                 <Container>
