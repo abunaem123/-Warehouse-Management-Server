@@ -7,7 +7,7 @@ const AddMyItem = () => {
 
     const onSubmit = data => {
         console.log(data);
-        const url = `http://localhost:5000/addmyitem`;
+        const url = `https://shrouded-coast-85356.herokuapp.com/addmyitem`;
         fetch(url, {
             method: 'POST',
             headers: {

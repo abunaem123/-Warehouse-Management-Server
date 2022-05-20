@@ -11,7 +11,7 @@ const ManageInventories = () => {
     ;
             const proceed = window.confirm('Are you Sure?');
             if (proceed) {
-                const url = `http://localhost:5000/inventory/${id}`;
+                const url = `https://shrouded-coast-85356.herokuapp.com/inventory/${id}`;
                 fetch(url, {
                     method: 'DELETE'
                 })

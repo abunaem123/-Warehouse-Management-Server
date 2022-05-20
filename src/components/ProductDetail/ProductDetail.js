@@ -10,7 +10,7 @@ const ProductDetail = () => {
     const [reStock, setReStock] = useState(false);
 
     useEffect(() => {
-        const url = `http://localhost:5000/inventory/${inventoryId}`;
+        const url = `https://shrouded-coast-85356.herokuapp.com/inventory/${inventoryId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setInventory(data));
@@ -24,7 +24,7 @@ const ProductDetail = () => {
                 Quantity: (Quantity - 1)
             };
 
-            const url = `http://localhost:5000/inventory/${inventoryId}`;
+            const url = `https://shrouded-coast-85356.herokuapp.com/inventory/${inventoryId}`;
             fetch(url, {
                 method: 'PUT',
                 headers: {
@@ -45,7 +45,7 @@ const ProductDetail = () => {
             Quantity: (Quantity + amount),
         }
         console.log(newQuantity)
-        const url = `http://localhost:5000/inventory/${inventoryId}`;
+        const url = `https://shrouded-coast-85356.herokuapp.com/inventory/${inventoryId}`;
         fetch(url, {
             method: 'PUT',
             headers: {
